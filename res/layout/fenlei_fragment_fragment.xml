@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 顶部导航 -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#7c7c7c" 
+        android:padding="5dp">
+
+        <LinearLayout 
+            android:id="@+id/imageview_fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp">
+            
+            <ImageView
+	            android:id="@+id/fanhui"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:gravity="center_horizontal"
+	            android:src="@drawable/fanhui" 
+	            android:layout_weight="1"/>
+      </LinearLayout>
+        
+        <AutoCompleteTextView
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageview_fanhui"
+   			android:layout_toLeftOf="@id/imageview_fanhui" 
+            android:layout_weight="3"
+            android:singleLine ="true"
+            android:hint="请输入商品名称"
+            android:padding="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textColor="#fbfdfc"
+            android:textSize="15sp" />
+        
+        <ImageView 
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tiaoma"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+	        android:layout_weight="1"/>
+    </RelativeLayout>
+
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <RadioGroup
+	      android:id="@+id/fenleifragment_radiogroup1"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:gravity="center_horizontal"
+	      android:orientation="horizontal"
+	      android:background="#e4e4e4">
+	
+	      <RadioButton
+	          android:id="@+id/xiangguan"
+	          android:layout_width="0dp"
+	          android:layout_height="wrap_content"
+	          android:text="相关" 
+	          android:textColor="@color/fenlei_menu_textcolor"
+	          android:checked="true"
+	          android:layout_weight="1"
+	          android:button="@null"
+	      	  android:padding="10dp"
+	      	  android:gravity="center_horizontal"/>
+	
+	      <RadioButton
+	          android:id="@+id/xiaoliang"
+	          android:layout_width="0dp"
+	          android:layout_height="wrap_content"
+	          android:text="销量"
+	          android:textColor="@color/fenlei_menu_textcolor"
+	          android:layout_weight="1"
+	          android:button="@null"
+	      	  android:padding="10dp"
+	      	  android:gravity="center_horizontal" />
+	
+	      <RadioButton
+	          android:id="@+id/jiage"
+	          android:layout_width="0dp"
+	          android:layout_height="wrap_content"
+	          android:text="价格"
+	          android:textColor="@color/fenlei_menu_textcolor"
+	          android:layout_weight="1"
+	          android:button="@null"
+	      	  android:padding="10dp"
+	      	  android:gravity="center_horizontal" />
+	      <RadioButton
+	          android:id="@+id/xinpin"
+	          android:layout_width="0dp"
+	          android:layout_height="wrap_content"
+	          android:text="新品"
+	          android:textColor="@color/fenlei_menu_textcolor"
+	          android:layout_weight="1"
+	          android:button="@null"
+	      	  android:padding="10dp"
+	      	  android:gravity="center_horizontal" />
+	    </RadioGroup>
+        
+    </RelativeLayout>
+    
+        
+        
+    <LinearLayout
+        android:id="@+id/fenlei_shangpinitem_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:background="#fff" >
+
+    </LinearLayout>
+    
+</LinearLayout>
+    
+
+

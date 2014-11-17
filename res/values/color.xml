@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       
+   <color name="transparent">#000000</color>  
+   <color name="color_background_selected">#333132</color>  
+   <color name="color_background_normal">#404042</color>  
+   <color name="color_text_selected">#ffffff</color>  
+   <color name="color_text_normal">#9a9a9a</color>  
+   <color name="white">#ffffff</color>
+    <color name="halftransparent">#35000000</color>
+   
+   <drawable name="title_layout_pressed">#35939393</drawable>
+   <drawable name="activity_bg">#ffffff</drawable>
+   <drawable name="title_layout">#ffffff</drawable>
+   
+  <color name="item_detail_ad">#f34b48</color>
+  <color name="item_detail_yaotext">#ff677c</color>
+  <color name="base_line">#56c9c8cc</color>
+  <color name="item_detail_add_cart_bg">#fda645</color>
+  <color name="item_detail_add_cart_bg_pressed">#976429</color>
+  <color name="item_detail_yao">#ff6867</color>
+   <color name="item_detail_yao_pressed">#6b2b2b</color>
+  
+   <color name="cart_gray">#e2e6ea</color>
+    <!-- 白色 -->
+    <color name="bg_White">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="bg_Black">#000000</color>
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#EEEEEE</color>
+
+    <!-- 白色 -->
+    <color name="tv_White">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="tv_Black">#000000</color>
+    <!-- 红色 -->
+    <color name="tv_Red">#CC0000</color>
+    <!-- 灰色 -->
+    <color name="tv_Gray">#CCCCCC</color>
+    
+    
+    <color name="true_feilei_menu_textcolor">#f74d49</color>
+  	<color name="false_feilei_menu_textcolor">#a1a1a1</color>
+    <color name="fenlei_first_listview_bg">#edeff1</color>
+    
+    <drawable name="wode_title_btn_pressed">#89123123</drawable>
+    <drawable name="wode_title_btn_normal">#00123123</drawable>
+    <drawable name="list_selector_bg_pressd">#35939393</drawable>
+     <drawable name="list_selector_bg_normal">#00ffffff</drawable>
+</resources>
